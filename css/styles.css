@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500&family=Raleway:ital,wght@1,200;1,500&family=Roboto+Condensed&family=Work+Sans:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    gap: 25px;
+}
+
+.navabar{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    margin:10px;
+}
+
+.container{
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Minimal{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-right: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgba(51, 51, 51, 1);
+    
+}
+
+.hero{
+    background-image: url(/img/hero1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:391px;
+    text-align: center;
+}
+
+.hero1-nadpis{
+    font-family: 'Montserrat', sans-serif;
+
+    padding-top: 105px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Making{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size:44px ;
+}
+
+.obsession{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 43px;
+}
+
+.let-help{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 10px;
+}
+
+/* section 2 */
+.hero2{
+    background: rgba(254, 254, 201, 1);
+    height: 289px;
+}
+
+.ix{
+    margin-left: 50%;
+    margin-top: -25px;
+}
+
+.Minimalist{
+    font-family: 'Montserrat', sans-serif;
+
+    text-align: center;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.button-hero2{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-left: 45%;
+    margin-top: 40px;
+    width: 159px;
+    height: 53px;
+    background: transparent;
+    border: 1px solid black;
+}   
+
+.how-we-make{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.hat-seriy{
+    margin-left: 45%;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+
+
+/* card */
+
+.cartochki{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card{
+    font-family: 'Montserrat', sans-serif;
+
+    width: 319px;
+    height: 368px;
+    margin-bottom: 70px;
+}
+
+.set{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 297px;
+}
+
+
+/* section 3 */
+
+.hero3{
+    background: #F5F5F5;
+}
+.Recent{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+.card-foto{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 43px;
+    width: 299px;
+    height: 383px;
+    margin-right: 20px;
+}
+
+.cartochki-foto{
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bg-safed{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: -10px;
+    background: white;
+    width: 299px;
+    height: 84px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* cartocjki 2 */
+
+.cartochki-foto2{
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+}
+
+.card-foto2{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 20px;
+    width: 299px;
+    height: 383px;
+    margin-right: 20px;
+    
+}
+
+
+/* cartochki 3 */
+
+
+.cartochki-foto3{
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 90px;
+}
+
+.card-foto3{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 20px;
+    width: 299px;
+    height: 383px;
+    margin-right: 20px;
+
+}
+
+
+/* section team */
+
+.cartochki-team{
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+}
+
+
+.our-team{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 72px;
+}
+
+.card-team{
+    font-family: 'Montserrat', sans-serif;
+
+    width: 240px;
+    height: 340px;
+    margin-right: 10px;
+    margin-bottom: 90px;
+}
+.our-nadpis{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 20px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.our-icon{
+    font-family: 'Montserrat', sans-serif;
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.iconki{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-right: 10px;
+}
+
+
+
+/* zapitaya */
+
+.hero5{
+    background: #F5F5F5;
+    
+}
+
+.zapita{
+    margin-top: 70px;
+    margin-left: 45%;
+}
+
+.zb{
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.guys{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-right: 50px;
+    margin-top: 70px;
+    width: 320px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.Elexis{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 26px;
+    margin-top: 70px;
+    width: 250px;
+    text-align: center;
+
+}
+
+.foto-gues{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 25px;
+}
+
+.Julius{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 10px;
+    color: rgba(171, 171, 171, 1);
+    margin-bottom: 100px;
+}
+
+.Rachel{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 10px;
+    color: rgba(171, 171, 171, 1);
+    margin-bottom: 100px;
+
+}
+
+/* section dom */
+
+.hero6{
+    background-image: url(/img/bg-dom.jpg);
+    background-size: cover;
+    height: 517px;
+    background-repeat: no-repeat;
+}
+
+.let-get{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hat-seri{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-left: 47%;
+    margin-top: 28px;
+    margin-bottom: 45px;
+}
+
+.cartochki-dom {
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+}
+
+
+.card-dom{
+    font-family: 'Montserrat', sans-serif;
+
+    width: 320px;
+    height: 238px;
+    text-align: center;
+}
+
+.dom-nadpisi{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 30px;
+}
+
+.meet-person{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-bottom: 20px;
+}
+
+.iconki-dma{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+
+/* fotter */
+
+.hero-fotter{
+    font-family: 'Montserrat', sans-serif;
+
+    background: #000;
+}
+
+
+.inpito{
+    font-family: 'Montserrat', sans-serif;
+
+    height: 57px;
+    width: 564px;
+    background: #2E2E2E;
+    padding-left: 20px;
+    
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+}
+
+.inpitchiki{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-left: 30%;
+    padding-top: 70px;
+}
+
+.inpit{
+    font-family: 'Montserrat', sans-serif;
+
+    height: 57px;
+    width: 564px;
+    background: #333333;
+    padding-left: 20px;
+}
+
+.inputichik{
+    font-family: 'Montserrat', sans-serif;
+
+    width: 564px;
+    padding-left: 20px;
+    height: 127px;
+    background: #333333;
+
+}
+
+.fotter-button{
+    font-family: 'Montserrat', sans-serif;
+
+    width: 210px;
+    height: 53px;
+    color: rgba(139, 202, 195, 1);
+    border-color: rgba(139, 202, 195, 1);
+    background: transparent;
+    margin-top: 20px;
+    margin-bottom: 37px;
+    margin-left: 20%;
+}   
+
+
+.fotter-logo{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-left: 30%;
+}
+
+.Template{
+    font-family: 'Montserrat', sans-serif;
+
+    color: rgba(255, 255, 255, 0.4);
+    margin-left: 12%;
+    margin-top: 15px;
+    padding-bottom: 75px;
+}
+
+
+
+
+/* media */
+@media only screen and (max-width:990px) {
+  .Minimal{
+    padding: 0;
+    }
+    .navabar ul {
+        padding-right: 100px;
+    }
+
+    .inpitchiki{
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .logo{
+        margin-left: 20px;
+    }
+    .navabar ul {
+        display: none;
+    }
+
+    .Minimalist{
+        width: 700px;
+    }
+
+    .how-we-make{
+        margin-left: -200px;
+    }
+    .hat-seriy{
+        margin-left: 320px;
+    }
+    .cartochki{
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .card3{
+        margin-left: 200px;
+    }
+
+    .cartochki-foto{
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+
+    .cartochki-foto2{
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+    .cartochki-foto3{
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+    .seum{
+        margin-left: 150px;
+        padding-top: 20px;
+    }
+
+   .cartochki-team{
+    flex-direction: column;
+    margin-left: 25%;
+   }
+
+   .our-team{
+    margin-left: -220px;
+   }
+
+   .zb{
+    margin-left: 70px;
+   }
+   .zapita{
+    margin-left: 380px;
+   }
+
+   .card-dom{
+    width: 200px;
+    margin-left: 50px;
+   }
+
+   .inpitchiki{
+    margin-left: 120px;
+   }
+}
+
+@media only screen and (max-width:420px) {
+    .Minimalist{
+        width: 380px;
+    }
+
+    .cartochki{
+        flex-direction: column;
+    }
+    .how-we-make{
+        margin-left: -550px;
+    }
+    .hat-seriy{
+        margin-left: 150px;
+    }
+
+    .card3{
+        margin-left: 20px;
+    }
+    .card{
+        margin-left: 20px;
+    }
+
+    .cartochki-foto{
+        flex-direction: column;
+    }
+    .seum{
+        margin-left: 20px;
+    }
+    .card-foto{
+        margin-left: 20px;
+    }
+
+    .cartochki-foto2{
+        flex-direction: column;
+    }
+
+    .card-foto2{
+        margin-left: 20px;
+    }
+
+    .cartochki-foto3{
+        flex-direction: column;
+    }
+    .card-foto3{
+        margin-left: 20px;
+    }
+
+    .our-team{
+        margin-left: -500px;
+    }
+
+    .card-team{
+        margin-left: -120px;
+    }
+
+    .zb{
+        flex-direction: column;
+    }
+    .foto-gues{
+        margin-left: -600px;
+    }
+    .zapita{
+        margin-left: 200px;
+    }
+    .Julius{
+        margin-left: -600px;
+    }
+    .Rachel{
+        margin-left: -600px;
+    }
+
+    .inpitchiki{
+        margin-left: 50px;
+    }
+
+    .inpito{
+        width: 300px;
+    }
+    .inpit{
+        width: 300px;
+    }
+    .inputichik{
+        width: 300px;
+    }
+
+    .fotter-button{
+        margin-left: 50px;
+    }
+
+    .fotter-logo{
+        margin-left: 150px;
+    }
+
+    .Template{
+        margin-left: -10px;
+    }
+
+    .card-dom{
+        width: 100px;
+        margin-left: 30px;
+    }
+}
